@@ -14,15 +14,15 @@ public class Estudiante {
     }
 
     public String calificacion(double promedio) {
-        if (promedio <= 50) {
+        if (promedio <= 50.9) {
             return "F";
-        } else if (promedio >= 51 && promedio <= 60) {
+        } else if (promedio >= 51 && promedio <= 60.9) {
             return "E";
-        } else if (promedio >= 61 && promedio <= 70) {
+        } else if (promedio >= 61 && promedio <= 70.9) {
             return "D";
-        } else if (promedio >= 71 && promedio <= 80) {
+        } else if (promedio >= 71 && promedio <= 80.9) {
             return "C";
-        } else if (promedio >= 81 && promedio <= 90) {
+        } else if (promedio >= 81 && promedio <= 90.9) {
             return "B";
         } else if (promedio >= 91) {
             return "A";
